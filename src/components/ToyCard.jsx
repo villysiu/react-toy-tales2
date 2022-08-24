@@ -13,7 +13,7 @@ const ToyCard = props => {
     return (
       <div className="card">
         <h2>{name}</h2>
-        <img src={image} alt={name} className="toy-avatar"  width="100"/>
+        <img src={image} alt={name} className="toy-avatar" />
         <p>{likes} Likes </p>
         <button className="like-btn" name="like" onClick={handleLike}>Like {'<3'}</button>
         <button className="del-btn" name="del" onClick={handleClick}>Donate to GoodWill</button>

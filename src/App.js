@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Header from './components/Header'
 import ToyContainer from './components/ToyContainer'
 import ToyForm from './components/ToyForm'
-
+import './App.css'
 const App=()=>{
   
   

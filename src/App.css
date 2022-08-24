@@ -17,19 +17,32 @@ body {
   width: auto;
 }
 
-#toy-collection {
-  margin: 2rem;
+#toy-collection:after {
+  /* margin: 2rem; */
+  content: "";
+  display: table;
+  clear: both;
 }
+
+
 
 .card {
   text-align: center;
   border: grey solid 1px;
   padding: 1rem;
-  width: 15rem;
+  width: 25%;
   height: 25rem;
   display: inline-grid;
   margin: 1rem 2rem;
   box-shadow: 3px 4px #e04b52
+  /* float: left;
+  width: 25%;
+  padding: 10px; */
+}
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
 }
 
 .toy-avatar {
